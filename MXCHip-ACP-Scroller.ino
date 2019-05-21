@@ -42,7 +42,7 @@ void loop() {
   int i;
   int zeile;
   for (zeile=0;zeile+4<AnzahlZeilen;zeile++) {
-    for (i=0;i<8;i++) {
+    for (i=0;i<10;i++) {
       display.clear();
       display.drawText(0,8-i, scrolltext[zeile]);
       display.drawText(0,18-i, scrolltext[zeile+1]);
